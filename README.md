@@ -1,0 +1,1 @@
+An ultra-interactive WhatsApp Web clone UI built using HTML and CSS, featuring animated chat bubbles, typing indicators, hover micro-interactions, online status animations, and a fully responsive modern messaging layout.
