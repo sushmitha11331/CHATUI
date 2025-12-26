@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chatz UI</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <header>
+      <div class="avatar">MP</div>
+      <div class="icons">💬 ⋮</div>
+    </header>
+
+    <input class="search" placeholder="Search or start new chat">
+
+    <div class="chat active">
+      <div class="avatar">JS</div>
+      <div class="chat-info">
+        <h4>WINONOA<span class="online"></span></h4>
+        <p>Check out this new UI ✨</p>
+      </div>
+      <span class="time">Yesterday</span>
+    </div>
+
+    <div class="chat">
+      <div class="avatar">JD</div>
+      <div class="chat-info">
+        <h4>JIHAALI</h4>
+        <p>Hey, are we still meeting?</p>
+      </div>
+      <span class="time">12:45 PM</span>
+    </div>
+  </aside>
+
+  <!-- CHAT AREA -->
+  <main class="chat-area">
+    <header class="chat-header">
+      <div class="user">
+        <div class="avatar">JS</div>
+        <div>
+          <h4>WINONOA</h4>
+          <p class="status">online</p>
+        </div>
+      </div>
+      <div class="icons">📞 ⋮</div>
+    </header>
+
+    <div class="messages">
+      <div class="message received">
+        Hello! Have you seen the serirs updates?
+        <span>10:15 AM</span>
+      </div>
+
+      <div class="message sent">
+        Not yet, I’ll catch them right tomorrow 🚀
+        <span>10:16 AM</span>
+      </div>
+
+      <div class="typing">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <footer class="input-area">
+      😊 📎
+      <input placeholder="Type a message">
+      🎤
+    </footer>
+  </main>
+
+</div>
+
+</body>
+</html>
